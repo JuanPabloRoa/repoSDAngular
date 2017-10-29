@@ -18,14 +18,12 @@ Requerimientos
 Instalación
 -----------
 `PHP`
-
-
-
-
-
-
-
-
+Una vez descomprimida la carpeta:
+* ir a mysql y crear una base de datos llamada sd.
+* crear un usuario llamado img2030 y contraseña img2030.
+* crear las tablas en la db abriendo una consola en la carpeta del proyecto y usando: `$ php artisan migrate`
+* rellenar la base de datos con dummy data usando: `$ php artisan db:seed`
+* correr el backend usando: `$ php artisan serve`
 
 `ANGULAR JS`
 Una vez descomprimida la carpeta:
