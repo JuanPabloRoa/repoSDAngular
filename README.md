@@ -17,9 +17,11 @@ Requerimientos
 
 Instalación
 -----------
+Iniciar Lampp (/opt/lampp/lampp start)
+
 `PHP`
 Una vez descomprimida la carpeta:
-* ir a mysql y crear una base de datos llamada sd.
+* ir a mysql ( con lampp acceder a http://localhost/phpmyadmin/) y crear una base de datos llamada sd.
 * crear un usuario llamado img2030 y contraseña img2030.
 * crear las tablas en la db abriendo una consola en la carpeta del proyecto y usando: `$ php artisan migrate`
 * rellenar la base de datos con dummy data usando: `$ php artisan db:seed`
